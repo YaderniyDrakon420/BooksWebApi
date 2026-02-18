@@ -1,0 +1,29 @@
+@Controllers_HostAddress = http://localhost:5099
+
+# GET {{Controllers_HostAddress}}/api/books
+# Accept: application/json
+
+
+# POST {{Controllers_HostAddress}}/api/books
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#   "title": "Clean Code",
+#   "author": "Robert Martin",
+#   "year": 2008
+# }
+
+
+# PUT {{Controllers_HostAddress}}/api/books/2
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#   "title": "Clean Code - Updated",
+#   "author": "Robert Martin",
+#   "year": 2026
+# }
+
+DELETE {{Controllers_HostAddress}}/api/books/4
+Accept: application/json
