@@ -25,5 +25,28 @@
 #   "year": 2026
 # }
 
-DELETE {{Controllers_HostAddress}}/api/books/4
+# DELETE {{Controllers_HostAddress}}/api/books/2
+# Accept: application/json
+
+# POST {{Controllers_HostAddress}}/api/books
+# Content-Type: application/json
+# x-user-role: user
+
+# {
+#   "title": "Brave New World",
+#   "author": "Aldous Huxley",
+#   "year": 1932
+# }
+
+# POST {{Controllers_HostAddress}}/api/books
+# Content-Type: application/json
+# x-user-role: admin
+
+# {
+#   "title": "Brave New World",
+#   "author": "Aldous Huxley",
+#   "year": 1932
+# }
+
+GET {{Controllers_HostAddress}}/api/books/4
 Accept: application/json
